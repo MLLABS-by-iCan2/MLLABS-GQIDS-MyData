@@ -12,7 +12,7 @@ namespace DataSource1_1
 	{
 		public GQIColumn[] GetColumns()
 		{
-			// Define data source columns
+			// Define data source columns srcs
 			// See: https://aka.dataminer.services/igqidatasource-getcolumns
 			return Array.Empty<GQIColumn>();
 		}
