@@ -26,7 +26,7 @@ jobs:
       sonarCloudProjectName: MLLABS-by-iCan2_MLLABS-GQIDS-MyData
     secrets:
       # The API-key: generated in the DCP Admin app (https://admin.dataminer.services/) as authentication for a certain DataMiner System.
-      api-key: ${{ secrets.CATALOG_PUBLISHER_ORG_KEY }}
+      api-key: ${{ secrets.PUBLISHER_TOKEN }}
       sonarCloudToken: ${{ secrets.SONAR_TOKEN }}
     
   # # Optional 0 or More CD Jobs as needed
