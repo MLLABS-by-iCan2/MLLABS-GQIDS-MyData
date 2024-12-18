@@ -27,7 +27,7 @@ jobs:
     secrets:
       # The API-key: generated in the DCP Admin app (https://admin.dataminer.services/) as authentication for a certain DataMiner System.
       api-key: ${{ secrets.CATALOG_PUBLISHER_ORG_KEY }}
-      sonarCloudToken: ${{ secrets.SONAR_TOKEN }}
+      sonarCloudToken: ${{ secrets.SONAR_TOKEN_2 }}
     
   # # Optional 0 or More CD Jobs as needed
   # CD:
